@@ -39,7 +39,8 @@ html, body, [class*="css"] {
 }
 
 /* ── Hide Streamlit chrome ── */
-#MainMenu, footer, header { visibility: hidden; }
+#MainMenu, footer { visibility: hidden; }
+header { background: transparent !important; }
 .stDeployButton { display: none; }
 
 /* ── Scrollbar ── */
