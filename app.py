@@ -333,6 +333,27 @@ section[data-testid="stSidebar"] .block-container {
     color: #c7d2fe;
     border: 1px solid rgba(99,102,241,.2);
 }
+
+/* ── Mobile Responsiveness ── */
+@media (max-width: 768px) {
+    .main .block-container { padding: 1rem 0.5rem 2rem !important; }
+    .guru-header { padding: 1.5rem 1rem; }
+    .guru-title { font-size: 1.6rem; }
+    .welcome-card { padding: 1.5rem 1rem; }
+    .welcome-title { font-size: 1.2rem; }
+    .chat-bubble-user, .chat-bubble-bot {
+        max-width: 90%;
+        padding: .75rem 1rem;
+        font-size: .85rem;
+    }
+    .chat-avatar { width: 24px; height: 24px; font-size: .8rem; margin: 0 .4rem; }
+    .stat-row { gap: .5rem; }
+    .stat-card { padding: .5rem; min-width: 70px; }
+    .stat-value { font-size: 1.1rem; }
+    .stat-label { font-size: .6rem; }
+    .stTextInput > div > div { padding: .6rem .8rem !important; }
+    .stButton > button { padding: .6rem 1rem !important; font-size: .85rem !important; }
+}
 </style>
 """, unsafe_allow_html=True)
 
